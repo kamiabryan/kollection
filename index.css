@@ -1,0 +1,156 @@
+h1{
+  font-size: 80px;
+  color: #F9F7F3;
+  background-color: #1F3250;
+}
+
+body, html {
+  font-family: Didot, serif;
+  height: 100%;
+
+  /* BACKGROUND IMAGE */
+  background-image: url("black3.jpg");
+
+  /* FULL HEIGHT */
+  height: 100%;
+
+  /* CENTER & SCALE IMAGE */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* NAV BAR */
+
+/* CONTAINER */
+.navbar {
+  overflow: hidden;
+  background-color: #37161A;
+  font-family: Arial;
+}
+
+/* INSIDE LINKS */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Didot, serif;
+}
+
+/* DROPDOWN CONTAINER */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* DROPDOWN CONTAINER */
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Didot, serif;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* BACKGROUND COLOR FOR LINKS ON HOVER */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #F0D385;
+  color: black;
+}
+
+/* DROPDOWN CONTENT */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #797A75;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* LINKS INSIDE DROPDOWN*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* BACKGROUND COLOR TO LINKS ON DROPDOWN */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* IMAGE ALIGN*/
+
+/* IMAGE CONTAINERS (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.padding{
+  padding: 1px;
+}
+
+/*CLEAR FLOATS AFTER IMAGE CONTAINER */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ICONS CODE*/
+
+* {box-sizing: border-box}
+
+/* CONTAINER 4 OVERLAY */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+}
+
+/* IMAGE RESPONSIVENESS */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* OVERLAY EFFECT */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: #C7D3BF;
+  font-size: 30px;
+  background-color: #33658A;
+  padding: 60px;
+  text-align: center;
+}
+
+/* FADE IN OVERLAY */
+.container:hover .overlay {
+  opacity: 1;
+}

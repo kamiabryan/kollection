@@ -1,0 +1,130 @@
+p{
+  line-height: 70px;
+  color: black;
+  font-size: 18px;
+  font-family: 'Inconsolata', monospace, ;
+  margin: 70px;
+}
+
+h1{
+  margin: 20px;
+  color: #F26419;
+  margin: 70px;
+}
+h3{
+  padding-left: 50px;
+}
+
+li{
+  color: white;
+  margin: 70px;
+}
+
+ body{
+   margin: 35px;
+ }
+
+body, html {
+  font-family: Didot, serif;
+  height: 100%;
+
+  /* BACKGROUND IMAGE */
+  /*background-image: url("black2.jpg");*/
+  background-color: whitesmoke;
+
+  /* FULL HEIGHT */
+  height: 100%;
+
+  /* CENTER & SCALE IMAGE */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* NAV BAR */
+
+/* CONTAINER */
+.navbar {
+  overflow: hidden;
+  background-color: #37161A;
+  font-family: Arial;
+}
+/* INSIDE LINKS */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Didot, serif;
+}
+
+/* DROPDOWN CONTAINER */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* DROPDOWN CONTAINER */
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Didot, serif;
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* BACKGROUND COLOR FOR LINKS ON HOVER */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #F0D385;
+  color: black;
+}
+
+/* DROPDOWN CONTENT */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #797A75;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* LINKS INSIDE DROPDOWN*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* BACKGROUND COLOR TO LINKS ON DROPDOWN */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* SHOW DROPDOWN ON HOVER */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*COLUMS*/
+.column {
+  float: left;
+  width: 40%;
+  padding: 40px
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,1 +1,2 @@
-# kollection.github.io
+# K. Collection
+ Personal website for my writings
